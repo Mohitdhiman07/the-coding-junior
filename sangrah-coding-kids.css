@@ -1,0 +1,62 @@
+body {
+    background-image: url("img/leaf.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#fea1 {
+    background-image: url("img/sky.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+}
+
+#tr {
+    background-image: url("img/sky.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cr {
+    background-image: url("img/leaf.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px;
+    padding-top: 80px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    #mom {
+        display: none;
+    }
+}
+
+#sr {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 0px;
+}
+
+.sr1 {
+    background-image: linear-gradient(to right, rgb(243, 216, 165), rgb(247, 247, 238));
+    border: 2px solid rgb(250, 111, 250);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 0px;
+    padding-top: -200px;
+    padding-bottom: -200px;
+}
+
+#kid {
+    color: orange;
+    font-size: 18px;
+}
